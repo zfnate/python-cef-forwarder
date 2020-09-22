@@ -7,7 +7,7 @@ Python 3
 Please note that this script will work for Python 2.7; however, as Python 2.7 has reached the end of life and will no longer receive official support, we strongly recommend using Python 3.
 
 ## Configurations
-Please ensure that **url*, **ip_address**, and **port** are all correctly defined to ensure that you are able to pull and forward data. If you need help with the **url**, please contact your ZeroFOX account manager.
+Please ensure that **url**, **ip_address**, and **port** are all correctly defined to ensure that you are able to pull and forward data. If you need help with the **url**, please contact your ZeroFOX account manager.
 
 ## Setup
 The only non-native Python module that you will need to install is the **requests** module, a lightweight module used for making HTTP requests. This can be done as follows:
