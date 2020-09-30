@@ -1,0 +1,53 @@
+These keys and values can be used to configure RSA NetWitness
+
+cef.xml
+
+<ExtensionKey cefName="id" metaName="obj_id" />
+<ExtensionKey cefName="indicator_type" metaName="obj_type" />
+<ExtensionKey cefName="value" metaName="obj_value" />
+<ExtensionKey cefName="network" metaName="netname" />
+<ExtensionKey cefName="privacy_level" metaName="privacy_level" />
+<ExtensionKey cefName="zf_created_at" metaName="zf_created_at" />
+<ExtensionKey cefName="zf_updated_at" metaName="zf_updated_at" />
+<ExtensionKey cefName="threat_level" metaName="threat_level" />
+<ExtensionKey cefName="expired" metaName="expired" />
+<ExtensionKey cefName="ttl" metaName="ttl" />
+<ExtensionKey cefName="classification_id" metaName="classification_id" />
+<ExtensionKey cefName="classification_name" metaName="classification_name" />
+<ExtensionKey cefName="campaign_id" metaName="campaign_id" />
+<ExtensionKey cefName="campaign_name" metaName="campaign_name" />
+<ExtensionKey cefName="campaign_description" metaName="campaign_description" />
+
+table-map-custom.xml
+
+<mapping envisionName="privacy_level" nwName="privacy_level" flags="None" format="Text" />
+<mapping envisionName="zf_created_at" nwName="zf_created_at" flags="None" format="Text" />
+<mapping envisionName="zf_updated_at" nwName="zf_updated_at" flags="None" format="Text" />
+<mapping envisionName="threat_level" nwName="threat_level" flags="None" format="Text" />
+<mapping envisionName="expired" nwName="expired" flags="None" format="Text" />
+<mapping envisionName="ttl" nwName="ttl" flags="None" format="Text" />
+<mapping envisionName="classification_id" nwName="classification_id" flags="None"
+format="Int32" />
+<mapping envisionName="classification_name" nwName="classification_name" flags="None"
+format="Text" />
+<mapping envisionName="campaign_id" nwName="campaign_id" flags="None" format="Int32" />
+<mapping envisionName="campaign_name" nwName="campaign_name" flags="None" format="Text" />
+<mapping envisionName="campaign_description" nwName="campaign_description" flags="None"
+format="Text" />
+
+index-concentrator.xml
+
+<key description="Privacy Level" name="privacy_level" format="Text" level="IndexValues"
+valueMax="50000">
+<key description="ZF Created At" name="zf_created_at" format="Text" level="IndexValues"
+valueMax="50000">
+<key description="ZF Updated At" name="zf_updated_at" format="Text" level="IndexValues"
+valueMax="50000">
+<key description="Threat Level" name="threat_level" format="Text" level="IndexValues"
+valueMax="50000">
+<key description="Classification Name" name="classification_name" format="Text"
+level="IndexValues" valueMax="50000">
+<key description="Campaign Name" name="campaign_name" format="Text" level="IndexValues"
+valueMax="50000">
+<key description="Campaign Description" name="campaign_description" format="Text"
+level="IndexValues" valueMax="50000">
