@@ -17,7 +17,7 @@ def getType(indicator_type, indicator_value):
         'profile': 'url',
         'post': 'url',
         'page': 'url',
-        'hashtag': 'item',
+        'hashtag': 'obj_val',
         'non-social': 'url',
         'phoneNumber': 'phone',
         'email': 'email',
@@ -25,7 +25,7 @@ def getType(indicator_type, indicator_value):
         'file_hash_sha1': 'checksum',
         'file_hash_sha512': 'checksum',
         'ipv4_address': 'alias.ip',
-        'btc_wallet': 'wallet_boy',
+        'btc_wallet': 'obj_val',
         'domain': 'url'
     }
 
