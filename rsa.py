@@ -24,7 +24,7 @@ def getType(indicator_type, indicator_value):
         'file_hash_md5': 'checksum',
         'file_hash_sha1': 'checksum',
         'file_hash_sha512': 'checksum',
-        'ipv4_address': 'alias.ip',
+        'ipv4_address': 'alias_ip',
         'btc_wallet': 'obj_val',
         'domain': 'url'
     }
